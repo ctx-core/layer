@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "7.1.18",
+	"version": "7.1.19",
 	"description": "ctx-core layer",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -29,11 +29,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^15.4.24",
-		"@ctx-core/error": "^5.1.54",
+		"@ctx-core/array": "^15.4.25",
+		"@ctx-core/error": "^5.1.55",
 		"@ctx-core/logger": "^3.1.10",
-		"@ctx-core/object": "^6.3.4",
-		"@ctx-core/store": "^12.1.4",
+		"@ctx-core/object": "^6.3.5",
+		"@ctx-core/store": "^12.1.5",
 		"svelte": "^3.16.0"
 	},
 	"devDependencies": {
