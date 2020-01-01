@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "7.1.31",
+	"version": "7.1.32",
 	"description": "ctx-core layer",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -33,7 +33,7 @@
 		"@ctx-core/error": "^5.1.61",
 		"@ctx-core/logger": "^3.1.12",
 		"@ctx-core/object": "^6.3.11",
-		"@ctx-core/store": "^12.3.3",
+		"@ctx-core/store": "^12.3.4",
 		"svelte": "^3.16.7"
 	},
 	"devDependencies": {
