@@ -2,6 +2,7 @@
 	"name": "@ctx-core/layer",
 	"version": "7.2.32",
 	"description": "ctx-core layer",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
