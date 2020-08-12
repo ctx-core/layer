@@ -2,9 +2,7 @@ import { writable, derived, get, Writable } from 'svelte/store'
 import { _b, assign } from '@ctx-core/object'
 import { _last__a1, _union, _difference } from '@ctx-core/array'
 import { throw__invalid_state } from '@ctx-core/error'
-import { log } from '@ctx-core/logger'
 import { _andand } from '@ctx-core/function'
-const logPrefix = '@ctx-core/layer/store.js'
 export interface Layer {
 	zIndex:number
 }
@@ -21,7 +19,6 @@ export const b__a1__layer = _b<Writable__a1__layer>('__a1__layer', ctx=>{
 		remove__a1__layer,
 	})
 	function push__a1__layer(...a1__layer__) {
-		log(`${logPrefix}|push__a1__layer`)
 		const zIndex__top__layer = get(b__zIndex__top__layer(ctx))
 		for (let j = 0; j < a1__layer__.length; j++) {
 			const layer = a1__layer__[j]
@@ -45,7 +42,6 @@ export const b__a1__layer = _b<Writable__a1__layer>('__a1__layer', ctx=>{
 		__a1__layer.set(layers)
 	}
 	function unshift__a1__layer(...a1__layer__) {
-		log(`${logPrefix}|unshift__a1__layer`)
 		__a1__layer.set(
 			_union([
 				a1__layer__,
@@ -53,7 +49,6 @@ export const b__a1__layer = _b<Writable__a1__layer>('__a1__layer', ctx=>{
 			]))
 	}
 	function remove__a1__layer(...a1__layer__) {
-		log(`${logPrefix}|remove__a1__layer`)
 		__a1__layer.set(
 			_difference([
 				a1__layer__,

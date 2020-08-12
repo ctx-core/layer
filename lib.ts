@@ -3,8 +3,6 @@
  * @module @ctx-core/layer/lib
  */
 import { assign } from '@ctx-core/object'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/layer/lib.js'
 /**
  * A representation of a css layer.
  * @typedef layer
@@ -16,7 +14,6 @@ const logPrefix = '@ctx-core/layer/lib.js'
  * @returns {module:ctx-core/layer/lib~layer}
  */
 export function _layer() {
-	log(`${logPrefix}|$layer`)
 	const layer = assign({
 		zIndex: null
 	}, ...arguments)
