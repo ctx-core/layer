@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "7.2.80",
+	"version": "7.2.81",
 	"description": "ctx-core layer",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^16.0.13",
-		"@ctx-core/error": "^5.1.102",
+		"@ctx-core/error": "^5.1.103",
 		"@ctx-core/object": "^9.0.13",
 		"@ctx-core/store": "^16.0.16",
 		"svelte": "^3.24.1"
