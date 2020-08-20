@@ -36,7 +36,7 @@
 		"svelte": "^3.24.1"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.7"
+		"typescript": "^4.0.2"
 	},
 	"gitHead": "1e9fe22f83410be9ed4e82c7ad525a3689bc530f"
 }
