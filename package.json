@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "7.2.91",
+	"version": "7.2.92",
 	"description": "ctx-core layer",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -29,10 +29,10 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^17.0.3",
-		"@ctx-core/error": "^5.1.108",
-		"@ctx-core/object": "^10.0.3",
-		"@ctx-core/store": "^16.2.7",
+		"@ctx-core/array": "^17.0.4",
+		"@ctx-core/error": "^5.1.109",
+		"@ctx-core/object": "^10.0.4",
+		"@ctx-core/store": "^16.2.8",
 		"svelte": "^3.25.0"
 	},
 	"devDependencies": {
