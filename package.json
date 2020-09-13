@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "7.2.92",
+	"version": "7.2.93",
 	"description": "ctx-core layer",
 	"main": "./index.js",
 	"module": "./index.js",
