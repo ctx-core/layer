@@ -1,2 +1,2 @@
-export * from './lib'
+export * from './_layer'
 export * from './store'

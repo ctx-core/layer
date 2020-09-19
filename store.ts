@@ -1,18 +1,18 @@
 import { writable, derived, get, Writable } from 'svelte/store'
 import { _b, assign } from '@ctx-core/object'
 import { _last__a1, _union, _difference } from '@ctx-core/array'
-import { throw__invalid_state } from '@ctx-core/error'
 import { _andand } from '@ctx-core/function'
+import { throw_invalid_state, throw_invalid_state_ctx_type } from '@ctx-core/error'
 export interface Layer {
 	zIndex:number
 }
-export interface Writable__a1__layer extends Writable<Layer[]> {
+export interface type__a1__layer extends Writable<Layer[]> {
 	push__a1__layer:(...a1__layer__:Layer[])=>void
 	unshift__a1__layer:(...a1__layer__:Layer[])=>void
 	remove__a1__layer:(...a1__layer__:Layer[])=>void
 }
-export const b__a1__layer = _b<Writable__a1__layer>('__a1__layer', ctx=>{
-	const __a1__layer = writable([])
+export const b__a1__layer = _b<type__a1__layer>('__a1__layer', ctx=>{
+	const __a1__layer = writable([] as Layer[]) as type__a1__layer
 	return assign(__a1__layer, {
 		push__a1__layer,
 		unshift__a1__layer,
@@ -25,10 +25,10 @@ export const b__a1__layer = _b<Writable__a1__layer>('__a1__layer', ctx=>{
 			const { zIndex } = layer
 			if (Number.isFinite(zIndex)) {
 				if (zIndex__top__layer != null && zIndex <= zIndex__top__layer) {
-					throw__invalid_state({
+					throw_invalid_state({
 						key: 'layers',
 						reason: `zIndex must be greater than store.zIndex__top__layer('layers')`
-					})
+					} as throw_invalid_state_ctx_type)
 				}
 			} else {
 				layer.zIndex =
