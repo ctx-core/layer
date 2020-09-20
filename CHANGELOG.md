@@ -1,5 +1,12 @@
 # @ctx-core/layer
 
+## 8.0.3
+
+### Patch Changes
+
+- @ctx-core/array@19.0.3
+- @ctx-core/store@17.0.3
+
 ## 8.0.2
 
 ### Patch Changes
