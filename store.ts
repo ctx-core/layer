@@ -1,4 +1,4 @@
-import { writable, derived, get, Writable } from 'svelte/store'
+import { writable, derived, get, Writable, Readable } from '@ctx-core/store'
 import { _b, assign } from '@ctx-core/object'
 import { _last__a1, _union, _difference } from '@ctx-core/array'
 import { _andand } from '@ctx-core/function'
@@ -19,7 +19,7 @@ export const b__a1__layer = _b<type__a1__layer>('__a1__layer', ctx=>{
 		remove__a1__layer,
 	})
 	function push__a1__layer(...a1__layer__) {
-		const zIndex__top__layer = get(b__zIndex__top__layer(ctx))
+		const zIndex__top__layer = get<number>(b__zIndex__top__layer(ctx))
 		for (let j = 0; j < a1__layer__.length; j++) {
 			const layer = a1__layer__[j]
 			const { zIndex } = layer
@@ -37,22 +37,22 @@ export const b__a1__layer = _b<type__a1__layer>('__a1__layer', ctx=>{
 					: zIndex__top__layer + 1
 			}
 		}
-		const layers = get(__a1__layer).slice(0)
+		const layers = get<Layer[]>(__a1__layer).slice(0)
 		layers.push(...a1__layer__)
 		__a1__layer.set(layers)
 	}
-	function unshift__a1__layer(...a1__layer__) {
+	function unshift__a1__layer(...a1__layer__:Layer[]) {
 		__a1__layer.set(
-			_union([
+			_union<Layer>([
 				a1__layer__,
-				get(__a1__layer) || []
+				get<Layer[]>(__a1__layer) || []
 			]))
 	}
 	function remove__a1__layer(...a1__layer__) {
 		__a1__layer.set(
-			_difference([
+			_difference<Layer>([
 				a1__layer__,
-				get(__a1__layer).slice(0)
+				get<Layer[]>(__a1__layer).slice(0)
 			]))
 	}
 })
@@ -68,7 +68,9 @@ export const b__top__layer = _b('__top__layer', ctx=>
 		layers=>
 			_last__a1(layers)))
 export const __top__layer = b__top__layer()
-export const b__zIndex__top__layer = _b('__zIndex__top__layer', ctx=>
+export type $zIndex__top__layer = number
+export type zIndex__top__layer = Readable<$zIndex__top__layer>
+export const b__zIndex__top__layer = _b<zIndex__top__layer>('__zIndex__top__layer', ctx=>
 	derived(
 		b__top__layer(ctx),
 		_andand('zIndex')))
