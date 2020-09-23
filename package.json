@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "8.0.17",
+	"version": "8.0.18",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -31,7 +31,7 @@
 		"@ctx-core/error": "workspace:^7.0.6",
 		"@ctx-core/function": "workspace:^16.1.0",
 		"@ctx-core/object": "workspace:^12.0.6",
-		"@ctx-core/store": "workspace:^17.2.3",
+		"@ctx-core/store": "workspace:^18.0.0",
 		"svelte": "3.26.0"
 	},
 	"devDependencies": {
