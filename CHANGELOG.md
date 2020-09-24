@@ -1,5 +1,14 @@
 # @ctx-core/layer
 
+## 8.0.27
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.15
+  - @ctx-core/store@18.1.6
+
 ## 8.0.26
 
 ### Patch Changes
