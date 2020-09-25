@@ -1,5 +1,13 @@
 # @ctx-core/layer
 
+## 8.0.32
+
+### Patch Changes
+
+- svelte: 3.27.0 -> 3.28.0
+- Updated dependencies [undefined]
+  - @ctx-core/store@18.1.11
+
 ## 8.0.31
 
 ### Patch Changes
