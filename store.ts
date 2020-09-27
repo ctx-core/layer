@@ -19,7 +19,7 @@ export const b__a1__layer = _b<type__a1__layer>('__a1__layer', ctx=>{
 		remove__a1__layer,
 	})
 	function push__a1__layer(...a1__layer__) {
-		const zIndex__top__layer = get<number>(b__zIndex__top__layer(ctx))
+		const zIndex__top__layer = get(b__zIndex__top__layer(ctx))
 		for (let j = 0; j < a1__layer__.length; j++) {
 			const layer = a1__layer__[j]
 			const { zIndex } = layer
@@ -37,7 +37,7 @@ export const b__a1__layer = _b<type__a1__layer>('__a1__layer', ctx=>{
 					: zIndex__top__layer + 1
 			}
 		}
-		const layers = get<Layer[]>(__a1__layer).slice(0)
+		const layers = get(__a1__layer).slice(0) as Layer[]
 		layers.push(...a1__layer__)
 		__a1__layer.set(layers)
 	}
@@ -45,14 +45,14 @@ export const b__a1__layer = _b<type__a1__layer>('__a1__layer', ctx=>{
 		__a1__layer.set(
 			_union<Layer>([
 				a1__layer__,
-				get<Layer[]>(__a1__layer) || []
+				get(__a1__layer) || []
 			]))
 	}
 	function remove__a1__layer(...a1__layer__) {
 		__a1__layer.set(
 			_difference<Layer>([
 				a1__layer__,
-				get<Layer[]>(__a1__layer).slice(0)
+				get(__a1__layer).slice(0) as Layer[]
 			]))
 	}
 })
