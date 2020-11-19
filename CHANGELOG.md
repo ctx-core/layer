@@ -1,5 +1,17 @@
 # @ctx-core/layer
 
+## 8.0.56
+
+### Patch Changes
+
+- typescript: ^4.0.5 -> ^4.1.2
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.23
+  - @ctx-core/error@7.0.16
+  - @ctx-core/function@16.1.3
+  - @ctx-core/object@13.0.2
+  - @ctx-core/store@23.0.13
+
 ## 8.0.55
 
 ### Patch Changes
