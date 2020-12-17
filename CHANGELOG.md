@@ -1,5 +1,22 @@
 # @ctx-core/layer
 
+## 8.1.6
+
+### Patch Changes
+
+- interface instead of type: top_layer_zIndex_type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+  - @ctx-core/object@15.0.4
+  - @ctx-core/function@16.1.5
+  - @ctx-core/error@7.1.6
+  - @ctx-core/store@23.1.8
+
 ## 8.1.5
 
 ### Patch Changes
