@@ -1,5 +1,16 @@
 # @ctx-core/layer
 
+## 8.1.11
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.3.0
+  - @ctx-core/array@19.1.11
+  - @ctx-core/object@15.0.8
+  - @ctx-core/store@23.1.13
+  - @ctx-core/error@7.1.10
+
 ## 8.1.10
 
 ### Patch Changes
