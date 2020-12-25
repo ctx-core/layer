@@ -1,5 +1,19 @@
 # @ctx-core/layer
 
+## 8.1.13
+
+### Patch Changes
+
+- - .rush
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/function@16.4.0
+  - @ctx-core/array@19.1.13
+  - @ctx-core/error@7.1.12
+  - @ctx-core/object@15.0.10
+  - @ctx-core/store@23.1.15
+
 ## 8.1.12
 
 ### Patch Changes
