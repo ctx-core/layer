@@ -1,5 +1,12 @@
 # @ctx-core/layer
 
+## 8.1.24
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.2.0
+
 ## 8.1.23
 
 ### Patch Changes
