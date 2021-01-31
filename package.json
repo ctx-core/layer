@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "8.1.34",
+	"version": "8.1.35",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -27,11 +27,11 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^19.2.2",
-		"@ctx-core/error": "workspace:^7.1.23",
+		"@ctx-core/array": "workspace:^19.2.3",
+		"@ctx-core/error": "workspace:^7.1.24",
 		"@ctx-core/function": "workspace:^16.9.1",
-		"@ctx-core/object": "workspace:^16.0.4",
-		"@ctx-core/store": "workspace:^23.4.3",
+		"@ctx-core/object": "workspace:^16.1.0",
+		"@ctx-core/store": "workspace:^23.4.4",
 		"svelte": "3.32.1"
 	},
 	"devDependencies": {
