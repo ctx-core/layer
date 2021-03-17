@@ -1,5 +1,14 @@
 # @ctx-core/layer
 
+## 9.0.31
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@24.1.13
+  - @ctx-core/array@20.2.0
+
 ## 9.0.30
 
 ### Patch Changes
