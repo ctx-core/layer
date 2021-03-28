@@ -1,5 +1,5 @@
 import { Writable } from '@ctx-core/store';
-export declare const layer_a1_b: import("@ctx-core/object").be_type<layer_a1_type, object>;
+export declare const layer_a1_b: import("@ctx-core/object").Be<layer_a1_type, object>;
 export interface Layer {
     zIndex: number;
 }
