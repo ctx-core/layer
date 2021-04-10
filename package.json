@@ -30,7 +30,7 @@
 		"@ctx-core/array": "workspace:^20.2.4",
 		"@ctx-core/error": "workspace:^8.0.22",
 		"@ctx-core/function": "workspace:^17.4.5",
-		"@ctx-core/object": "workspace:^17.5.1",
+		"@ctx-core/object": "workspace:^17.5.2",
 		"@ctx-core/store": "workspace:^24.1.18",
 		"svelte": "3.37.0"
 	},
