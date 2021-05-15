@@ -1,7 +1,7 @@
 import { _b, assign } from '@ctx-core/object'
-import { get, Writable, writable } from '@ctx-core/store'
-import { throw_invalid_state, throw_invalid_state_ctx_type } from '@ctx-core/error'
 import { _difference, _union } from '@ctx-core/array'
+import { throw_invalid_state, throw_invalid_state_ctx_type } from '@ctx-core/error'
+import { get, Writable, writable } from '@ctx-core/store'
 import { top_layer_zIndex_b } from './top_layer_zIndex_b'
 export const layer_a1_b = _b<layer_a1_type>('layer_a1', ctx=>{
 	const layer_a1 = writable([] as $layer_a1_type) as layer_a1_type
@@ -10,7 +10,7 @@ export const layer_a1_b = _b<layer_a1_type>('layer_a1', ctx=>{
 		unshift_layer_a1,
 		remove_layer_a1,
 	})
-	function push_layer_a1(...in_layer_a1) {
+	function push_layer_a1(...in_layer_a1:Layer[]) {
 		const layer_top_zIndex = get(top_layer_zIndex_b(ctx))
 		for (let j = 0; j < in_layer_a1.length; j++) {
 			const layer = in_layer_a1[j]
@@ -40,7 +40,7 @@ export const layer_a1_b = _b<layer_a1_type>('layer_a1', ctx=>{
 				get(layer_a1) || []
 			]))
 	}
-	function remove_layer_a1(...in_layer_a1) {
+	function remove_layer_a1(...in_layer_a1:Layer[]) {
 		layer_a1.set(
 			_difference<Layer>([
 				in_layer_a1,
