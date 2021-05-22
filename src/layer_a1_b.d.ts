@@ -2,7 +2,7 @@ import { Writable$ } from '@ctx-core/store';
 export interface layer_a1_Ctx {
     layer_a1?: layer_a1_T;
 }
-export declare const layer_a1_b: import("@ctx-core/object").Be<layer_a1_Ctx, "layer_a1">;
+export declare const layer_a1_b: import("@ctx-core/object").Be<layer_a1_Ctx, "layer_a1", layer_a1_T>;
 export interface Layer {
     zIndex: number;
 }
