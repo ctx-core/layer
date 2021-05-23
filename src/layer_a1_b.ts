@@ -2,12 +2,10 @@ import { _b, assign } from '@ctx-core/object'
 import { _difference, _union } from '@ctx-core/array'
 import { throw_invalid_state, throw_invalid_state_ctx_type } from '@ctx-core/error'
 import { get, Writable$, writable$ } from '@ctx-core/store'
-import { top_layer_zIndex_b, top_layer_zIndex_Ctx } from './top_layer_zIndex_b'
+import { top_layer_zIndex_b } from './top_layer_zIndex_b'
+import type { layer_Ctx } from './layer_Ctx'
 const key = 'layer_a1'
-export interface layer_a1_Ctx {
-	layer_a1?:layer_a1_T
-}
-export const layer_a1_b = _b<layer_a1_Ctx, typeof key>(key, ctx=>{
+export const layer_a1_b = _b<layer_Ctx, typeof key>(key, ctx=>{
 	const layer_a1 = writable$([] as $layer_a1_T) as layer_a1_T
 	return assign(layer_a1, {
 		push_layer_a1,
@@ -15,7 +13,7 @@ export const layer_a1_b = _b<layer_a1_Ctx, typeof key>(key, ctx=>{
 		remove_layer_a1,
 	})
 	function push_layer_a1(...in_layer_a1:Layer[]) {
-		const layer_top_zIndex = top_layer_zIndex_b(ctx as top_layer_zIndex_Ctx).$
+		const layer_top_zIndex = top_layer_zIndex_b(ctx as layer_Ctx).$
 		for (let j = 0; j < in_layer_a1.length; j++) {
 			const layer = in_layer_a1[j]
 			const { zIndex } = layer
