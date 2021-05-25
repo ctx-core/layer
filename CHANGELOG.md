@@ -1,5 +1,20 @@
 # @ctx-core/layer
 
+## 9.4.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.5.0
+  - @ctx-core/error@8.3.0
+  - @ctx-core/function@17.11.0
+  - @ctx-core/object@18.2.0
+  - @ctx-core/store@24.10.0
+
 ## 9.3.2
 
 ### Patch Changes
