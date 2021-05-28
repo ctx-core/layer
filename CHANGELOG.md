@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 9.4.2
+
+### Patch Changes
+
+- - layer_b_h_b
+
 ## 9.4.1
 
 ### Patch Changes
