@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 9.4.3
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+
 ## 9.4.2
 
 ### Patch Changes
