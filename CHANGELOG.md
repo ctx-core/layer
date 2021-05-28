@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 9.4.4
+
+### Patch Changes
+
+- update dependencies
+
 ## 9.4.3
 
 ### Patch Changes
