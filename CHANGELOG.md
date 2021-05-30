@@ -1,5 +1,22 @@
 # @ctx-core/layer
 
+## 10.0.0
+
+### Major Changes
+
+- \$ suffix for stores
+- \_ suffix for factory functions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.0.0
+  - @ctx-core/error@9.0.0
+  - @ctx-core/function@18.0.0
+  - @ctx-core/object@19.0.0
+  - @ctx-core/store@25.0.0
+
 ## 9.4.4
 
 ### Patch Changes
