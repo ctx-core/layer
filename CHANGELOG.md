@@ -1,5 +1,17 @@
 # @ctx-core/layer
 
+## 10.0.23
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.7
+  - @ctx-core/error@9.0.4
+  - @ctx-core/function@18.1.3
+  - @ctx-core/object@19.1.3
+  - @ctx-core/store@25.1.13
+
 ## 10.0.22
 
 ### Patch Changes
