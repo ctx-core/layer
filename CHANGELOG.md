@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 10.0.30
+
+### Patch Changes
+
+- fix: B: inferred type issue
+
 ## 10.0.29
 
 ### Patch Changes

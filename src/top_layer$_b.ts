@@ -1,10 +1,10 @@
-import { be_ } from '@ctx-core/object'
+import { B, be_ } from '@ctx-core/object'
 import { last_ } from '@ctx-core/array'
 import { derived$, Readable$ } from '@ctx-core/store'
 import { Layer, layer_a$_b } from './layer_a$_b'
 import type { layer_Ctx } from './layer_Ctx'
 const key = 'top_layer$'
-export const top_layer$_b = be_<layer_Ctx, typeof key>(key, ctx=>
+export const top_layer$_b:B<layer_Ctx, typeof key> = be_(key, ctx=>
 	derived$(
 		layer_a$_b(ctx),
 		layer_a=>
