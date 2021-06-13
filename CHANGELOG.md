@@ -1,5 +1,13 @@
 # @ctx-core/layer
 
+## 10.0.33
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/store@25.1.21
+
 ## 10.0.32
 
 ### Patch Changes
