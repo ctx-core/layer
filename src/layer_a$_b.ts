@@ -6,16 +6,16 @@ import { top_layer_zIndex$_b } from './top_layer_zIndex$_b'
 import type { layer_Ctx } from './layer_Ctx'
 const key = 'layer_a$'
 export const layer_a$_b:B<layer_Ctx, typeof key> = be_(key, ctx=>{
-	const layer_a1 = writable$([] as layer_a_T) as layer_a$_T
-	return assign(layer_a1, {
-		push_layer_a1,
-		unshift_layer_a1,
-		remove_layer_a1,
+	const layer_a = writable$([] as layer_a_T) as layer_a$_T
+	return assign(layer_a, {
+		push_layer_a,
+		unshift_layer_a,
+		remove_layer_a,
 	})
-	function push_layer_a1(...in_layer_a1:Layer[]) {
+	function push_layer_a(...in_layer_a:Layer[]) {
 		const layer_top_zIndex = top_layer_zIndex$_b(ctx as layer_Ctx).$
-		for (let j = 0; j < in_layer_a1.length; j++) {
-			const layer = in_layer_a1[j]
+		for (let j = 0; j < in_layer_a.length; j++) {
+			const layer = in_layer_a[j]
 			const { zIndex } = layer
 			if (Number.isFinite(zIndex)) {
 				if (layer_top_zIndex != null && zIndex <= layer_top_zIndex) {
@@ -31,22 +31,22 @@ export const layer_a$_b:B<layer_Ctx, typeof key> = be_(key, ctx=>{
 					: layer_top_zIndex + 1
 			}
 		}
-		const layers = get(layer_a1).slice(0) as layer_a_T
-		layers.push(...in_layer_a1)
-		layer_a1.set(layers)
+		const layers = get(layer_a).slice(0) as layer_a_T
+		layers.push(...in_layer_a)
+		layer_a.set(layers)
 	}
-	function unshift_layer_a1(...in_layer_a1:layer_a_T) {
-		layer_a1.set(
+	function unshift_layer_a(...in_layer_a:layer_a_T) {
+		layer_a.set(
 			_union<Layer>([
-				in_layer_a1,
-				get(layer_a1) || []
+				in_layer_a,
+				get(layer_a) || []
 			]))
 	}
-	function remove_layer_a1(...in_layer_a1:Layer[]) {
-		layer_a1.set(
+	function remove_layer_a(...in_layer_a:Layer[]) {
+		layer_a.set(
 			_difference<Layer>([
-				in_layer_a1,
-				get(layer_a1).slice(0) as layer_a_T
+				in_layer_a,
+				get(layer_a).slice(0) as layer_a_T
 			]))
 	}
 })
@@ -55,9 +55,9 @@ export interface Layer {
 }
 export type layer_a_T = Layer[]
 export interface layer_a$_T extends Writable$<layer_a_T> {
-	push_layer_a1:(...in_layer_a1:layer_a_T)=>void
-	unshift_layer_a1:(...in_layer_a1:layer_a_T)=>void
-	remove_layer_a1:(...in_layer_a1:layer_a_T)=>void
+	push_layer_a:(...in_layer_a:layer_a_T)=>void
+	unshift_layer_a:(...in_layer_a:layer_a_T)=>void
+	remove_layer_a:(...in_layer_a:layer_a_T)=>void
 }
 export {
 	layer_a$_b as b__a1__layer
