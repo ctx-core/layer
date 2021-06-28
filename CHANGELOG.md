@@ -1,5 +1,13 @@
 # @ctx-core/layer
 
+## 11.0.21
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/store@26.0.18
+
 ## 11.0.20
 
 ### Patch Changes
