@@ -1,5 +1,15 @@
 # @ctx-core/layer
 
+## 11.0.28
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.1.6
+  - @ctx-core/error@10.1.9
+  - @ctx-core/store@26.0.25
+
 ## 11.0.27
 
 ### Patch Changes
