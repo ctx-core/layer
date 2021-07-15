@@ -1,5 +1,13 @@
 # @ctx-core/layer
 
+## 12.0.4
+
+### Patch Changes
+
+- fix: module imports;types
+- Updated dependencies [undefined]
+  - @ctx-core/error@11.0.3
+
 ## 12.0.3
 
 ### Patch Changes
