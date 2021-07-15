@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 12.0.3
+
+### Patch Changes
+
+- import: + .js extention
+
 ## 12.0.2
 
 ### Patch Changes
