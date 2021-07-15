@@ -1,5 +1,20 @@
 # @ctx-core/layer
 
+## 12.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.0
+  - @ctx-core/error@11.0.0
+  - @ctx-core/function@20.0.0
+  - @ctx-core/object@21.0.0
+  - @ctx-core/store@27.0.0
+
 ## 11.0.31
 
 ### Patch Changes
