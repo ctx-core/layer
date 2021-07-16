@@ -1,5 +1,17 @@
 # @ctx-core/layer
 
+## 12.0.5
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.3
+  - @ctx-core/error@11.0.4
+  - @ctx-core/function@20.0.3
+  - @ctx-core/object@21.0.3
+  - @ctx-core/store@27.0.3
+
 ## 12.0.4
 
 ### Patch Changes
