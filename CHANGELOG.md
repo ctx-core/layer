@@ -1,5 +1,15 @@
 # @ctx-core/layer
 
+## 12.0.17
+
+### Patch Changes
+
+- svelte: 3.40.0 -> 3.40.1
+- update dependencies
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@27.0.13
+
 ## 12.0.16
 
 ### Patch Changes
