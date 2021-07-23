@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "12.0.17",
+	"version": "12.0.18",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -46,7 +46,7 @@
 		"svelte": "3.40.1"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.0.15",
+		"@ctx-core/dev-tools": "workspace:^7.0.16",
 		"typescript": "^4.3.5"
 	},
 	"publishConfig": {
