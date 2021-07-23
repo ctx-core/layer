@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 12.0.19
+
+### Patch Changes
+
+- fix: \*\_ctx_I.generated
+
 ## 12.0.18
 
 ### Patch Changes
