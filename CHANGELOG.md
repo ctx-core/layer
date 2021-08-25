@@ -1,5 +1,15 @@
 # @ctx-core/layer
 
+## 12.0.32
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.17
+  - @ctx-core/object@21.0.16
+  - @ctx-core/store@27.0.23
+
 ## 12.0.31
 
 ### Patch Changes
