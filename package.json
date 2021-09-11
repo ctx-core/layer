@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "12.0.38",
+	"version": "12.0.39",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -37,11 +37,11 @@
 		"generate_ctx_I_file": "./node_modules/.bin/generate_ctx_I_file"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.20",
+		"@ctx-core/array": "workspace:^23.0.21",
 		"@ctx-core/error": "workspace:^11.0.16",
-		"@ctx-core/function": "workspace:^20.2.0",
-		"@ctx-core/object": "workspace:^21.0.19",
-		"@ctx-core/store": "workspace:^27.0.29",
+		"@ctx-core/function": "workspace:^20.2.1",
+		"@ctx-core/object": "workspace:^21.0.20",
+		"@ctx-core/store": "workspace:^27.0.30",
 		"esm": "^3.2.25",
 		"svelte": "3.42.5"
 	},
