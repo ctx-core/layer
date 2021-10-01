@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "12.0.41",
+	"version": "12.0.42",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -41,9 +41,9 @@
 		"@ctx-core/error": "workspace:^11.0.16",
 		"@ctx-core/function": "workspace:^20.2.1",
 		"@ctx-core/object": "workspace:^21.0.20",
-		"@ctx-core/store": "workspace:^27.0.32",
+		"@ctx-core/store": "workspace:^27.0.33",
 		"esm": "^3.2.25",
-		"svelte": "3.43.0"
+		"svelte": "3.43.1"
 	},
 	"devDependencies": {
 		"@ctx-core/dev-tools": "workspace:^7.1.3",
