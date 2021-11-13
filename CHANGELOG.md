@@ -1,5 +1,17 @@
 # @ctx-core/layer
 
+## 12.0.46
+
+### Patch Changes
+
+- @swc/core: ^1.2.107 -> ^1.2.108
+- Updated dependencies
+  - @ctx-core/array@23.0.24
+  - @ctx-core/error@11.0.19
+  - @ctx-core/function@20.2.4
+  - @ctx-core/object@21.0.23
+  - @ctx-core/store@27.0.37
+
 ## 12.0.45
 
 ### Patch Changes
