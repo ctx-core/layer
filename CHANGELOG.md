@@ -1,5 +1,17 @@
 # @ctx-core/layer
 
+## 13.0.5
+
+### Patch Changes
+
+- \*.d.ts export
+- Updated dependencies
+  - @ctx-core/array@23.0.37
+  - @ctx-core/error@11.1.13
+  - @ctx-core/function@20.2.16
+  - @ctx-core/object@22.0.4
+  - @ctx-core/store@27.0.51
+
 ## 13.0.4
 
 ### Patch Changes
