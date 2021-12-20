@@ -1,12 +1,12 @@
 import { _difference, _union } from '@ctx-core/array'
 import { throw_invalid_state, throw_invalid_state_ctx_type } from '@ctx-core/error'
 import { B, be_, assign } from '@ctx-core/object'
-import { get, Writable$, writable$ } from '@ctx-core/store'
+import { WritableAtom$, atom$ } from '@ctx-core/nanostores'
 import { top_layer_zIndex$_b } from './top_layer_zIndex$_b.js'
 const key = 'layer_a$'
 export const layer_a$_b:B<layer_a$_T> = be_(key, ctx=>{
-	const layer_a = writable$([] as layer_a_T) as layer_a$_T
-	return assign(layer_a, {
+	const layer_a$ = atom$([] as Layer[]) as layer_a$_T
+	return assign(layer_a$, {
 		push_layer_a,
 		unshift_layer_a,
 		remove_layer_a,
@@ -30,33 +30,32 @@ export const layer_a$_b:B<layer_a$_T> = be_(key, ctx=>{
 					: layer_top_zIndex + 1
 			}
 		}
-		const layers = get(layer_a).slice(0) as layer_a_T
+		const layers = layer_a$.$.slice(0) as Layer[]
 		layers.push(...in_layer_a)
-		layer_a.set(layers)
+		layer_a$.set(layers)
 	}
-	function unshift_layer_a(...in_layer_a:layer_a_T) {
-		layer_a.set(
+	function unshift_layer_a(...in_layer_a:Layer[]) {
+		layer_a$.set(
 			_union<Layer>([
 				in_layer_a,
-				get(layer_a) || []
+				layer_a$.$ || []
 			]))
 	}
 	function remove_layer_a(...in_layer_a:Layer[]) {
-		layer_a.set(
+		layer_a$.set(
 			_difference<Layer>([
 				in_layer_a,
-				get(layer_a).slice(0) as layer_a_T
+				layer_a$.$.slice(0) as Layer[]
 			]))
 	}
 })
 export interface Layer {
 	zIndex:number
 }
-export type layer_a_T = Layer[]
-export interface layer_a$_T extends Writable$<layer_a_T> {
-	push_layer_a:(...in_layer_a:layer_a_T)=>void
-	unshift_layer_a:(...in_layer_a:layer_a_T)=>void
-	remove_layer_a:(...in_layer_a:layer_a_T)=>void
+export interface layer_a$_T extends WritableAtom$<Layer[]> {
+	push_layer_a:(...in_layer_a:Layer[])=>void
+	unshift_layer_a:(...in_layer_a:Layer[])=>void
+	remove_layer_a:(...in_layer_a:Layer[])=>void
 }
 export {
 	layer_a$_b as b__a1__layer
