@@ -1,5 +1,18 @@
 # @ctx-core/layer
 
+## 14.0.3
+
+### Patch Changes
+
+- update dependencies
+
+## 14.0.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@0.2.0
+
 ## 14.0.1
 
 ### Patch Changes
