@@ -1,5 +1,17 @@
 # @ctx-core/layer
 
+## 14.0.8
+
+### Patch Changes
+
+- @swc/core: ^1.2.125 -> ^1.2.127
+- Updated dependencies
+  - @ctx-core/array@23.1.3
+  - @ctx-core/error@11.1.22
+  - @ctx-core/function@20.2.24
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+
 ## 14.0.7
 
 ### Patch Changes
