@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "14.0.14",
+	"version": "14.0.15",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -35,9 +35,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.1.4",
+		"@ctx-core/array": "workspace:^24.0.0",
 		"@ctx-core/error": "workspace:^11.1.23",
-		"@ctx-core/function": "workspace:^20.2.25",
+		"@ctx-core/function": "workspace:^20.3.0",
 		"@ctx-core/nanostores": "workspace:^0.4.0",
 		"@ctx-core/object": "workspace:^22.0.12"
 	},
