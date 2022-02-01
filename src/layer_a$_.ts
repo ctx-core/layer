@@ -1,10 +1,9 @@
 import { _difference, _union } from '@ctx-core/array'
 import { throw_invalid_state, throw_invalid_state_ctx_type } from '@ctx-core/error'
 import { atom$, WritableAtom$ } from '@ctx-core/nanostores'
-import { B, be_, assign } from '@ctx-core/object'
+import { assign, B, be_ } from '@ctx-core/object'
 import { top_layer_zIndex$_ } from './top_layer_zIndex$_.js'
-const key = 'layer_a$'
-export const layer_a$_:B<layer_a$_T> = be_(key, ctx=>{
+export const layer_a$_:B<layer_a$_T> = be_('layer_a$', ctx=>{
 	const layer_a$ = atom$([] as Layer[]) as layer_a$_T
 	return assign(layer_a$, {
 		push_layer_a,
