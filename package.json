@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "15.0.5",
+	"version": "15.0.6",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -38,12 +38,12 @@
 		"@ctx-core/array": "*",
 		"@ctx-core/error": "^11.4.0",
 		"@ctx-core/function": "*",
-		"@ctx-core/nanostores": "^0.6.0",
+		"@ctx-core/nanostores": "^0.7.1",
 		"@ctx-core/object": "*"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.138",
+		"@swc/core": "^1.2.139",
 		"rimraf": "^3.0.2",
 		"typescript": "next"
 	},
