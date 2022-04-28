@@ -1,5 +1,14 @@
 # @ctx-core/layer
 
+## 15.0.20
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/array@26.2.2
+  - @ctx-core/error@11.4.6
+
 ## 15.0.19
 
 ### Patch Changes
