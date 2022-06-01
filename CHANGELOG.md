@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 15.1.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 15.1.0
 
 ### Minor Changes
