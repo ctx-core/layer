@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 15.1.26
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 15.1.25
 
 ### Patch Changes
