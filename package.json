@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "15.1.31",
+	"version": "15.1.32",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -33,11 +33,11 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.8.13",
-		"@ctx-core/error": "^11.5.14",
+		"@ctx-core/array": "^26.8.14",
+		"@ctx-core/error": "^11.5.15",
 		"@ctx-core/function": "^21.6.1",
-		"@ctx-core/nanostores": "^2.2.17",
-		"@ctx-core/object": "^24.1.1"
+		"@ctx-core/nanostores": "^2.2.18",
+		"@ctx-core/object": "^24.1.2"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.60",
