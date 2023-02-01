@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 15.1.34
+
+### Patch Changes
+
+- @swc/core: ^1.3.31 -> ^1.3.32
+
 ## 15.1.33
 
 ### Patch Changes
