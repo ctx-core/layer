@@ -1,5 +1,5 @@
 import { _difference, _union } from '@ctx-core/array'
-import { throw_invalid_state, throw_invalid_state_ctx_type } from '@ctx-core/error'
+import { invalid_state__throw, throw_invalid_state_ctx_type } from '@ctx-core/error'
 import { atom_, WritableAtom_ } from '@ctx-core/nanostores'
 import { assign, B, be_ } from '@ctx-core/object'
 import { top_layer_zIndex__ } from './top_layer_zIndex__.js'
@@ -17,7 +17,7 @@ export const layer_a__:B<layer_a__T> = be_('layer_a__', ctx=>{
 			const { zIndex } = layer
 			if (Number.isFinite(zIndex)) {
 				if (layer_top_zIndex != null && zIndex <= layer_top_zIndex) {
-					throw_invalid_state({
+					invalid_state__throw({
 						key: 'layers',
 						reason: `zIndex must be greater than store.zIndex__top__layer('layers')`
 					} as throw_invalid_state_ctx_type)
