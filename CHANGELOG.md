@@ -1,5 +1,15 @@
 # @ctx-core/layer
 
+## 16.0.0
+
+### Major Changes
+
+- - layer_a**push,layer_a**unshift,layer_a**remove: removed member functions on layer_a**
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 15.1.43
 
 ### Patch Changes
