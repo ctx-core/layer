@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 16.0.35
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^3.1.8 -> ^3.1.9
+
 ## 16.0.34
 
 ### Patch Changes
