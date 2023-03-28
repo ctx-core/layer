@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "16.0.40",
+	"version": "16.0.41",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -34,7 +34,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.12.4",
-		"@ctx-core/error": "^11.6.24",
+		"@ctx-core/error": "^11.7.0",
 		"@ctx-core/function": "^21.12.2",
 		"@ctx-core/nanostores": "^3.1.13",
 		"@ctx-core/object": "^27.3.1"
