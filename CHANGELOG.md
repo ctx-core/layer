@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 16.0.54
+
+### Patch Changes
+
+- @ctx-core/error: ^12.3.4 -> ^12.3.5
+
 ## 16.0.53
 
 ### Patch Changes
