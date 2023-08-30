@@ -1,5 +1,30 @@
 # @ctx-core/layer
 
+## 17.0.0
+
+### Major Changes
+
+- layer\_=>layer\_\_new
+
+### Minor Changes
+
+- - layer*a*,layer_a\_\_set
+
+  layer*a$*: aliased by layer_a\_\_
+
+- - top*layer_zIndex*
+
+  top*layer_zIndex$*: aliased by top_layer_zIndex\_\_
+
+- - top*layer*
+
+  top*layer$*: aliased by top_layer\_\_
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/object@28.0.5
+
 ## 16.0.126
 
 ### Patch Changes
