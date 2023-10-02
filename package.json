@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "17.0.7",
+	"version": "17.0.8",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -33,11 +33,11 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.2",
-		"@ctx-core/error": "^12.3.42",
+		"@ctx-core/array": "^26.15.3",
+		"@ctx-core/error": "^12.3.43",
 		"@ctx-core/function": "^21.20.1",
-		"@ctx-core/nanostores": "^6.0.10",
-		"@ctx-core/object": "^28.0.7"
+		"@ctx-core/nanostores": "^6.0.11",
+		"@ctx-core/object": "^28.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
