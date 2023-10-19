@@ -1,5 +1,19 @@
 # @ctx-core/layer
 
+## 17.0.10
+
+### Patch Changes
+
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.13
+  - @ctx-core/array@26.15.5
+  - @ctx-core/error@12.3.45
+  - @ctx-core/function@21.20.2
+  - @ctx-core/object@28.2.1
+
 ## 17.0.9
 
 ### Patch Changes
