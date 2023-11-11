@@ -1,4 +1,4 @@
-import { _difference, _union } from '@ctx-core/array'
+import { difference_a_, union_a_ } from '@ctx-core/array'
 import { invalid_state__throw } from '@ctx-core/error'
 import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
 import { top_layer_zIndex_ } from '../top_layer_zIndex/index.js'
@@ -41,7 +41,7 @@ export function layer_a__push(ctx, ...in_layer_a) {
  * @param {Layer[]}in_layer_a
  */
 export function layer_a__unshift(ctx, ...in_layer_a) {
-	layer_a__set(ctx, _union([
+	layer_a__set(ctx, union_a_([
 		in_layer_a,
 		layer_a_(ctx) || []
 	]))
@@ -51,7 +51,7 @@ export function layer_a__unshift(ctx, ...in_layer_a) {
  * @param {Layer[]}in_layer_a
  */
 export function layer_a__remove(ctx, ...in_layer_a) {
-	layer_a__set(ctx, _difference([
+	layer_a__set(ctx, difference_a_([
 		in_layer_a,
 		layer_a_(ctx).slice(0)
 	]))

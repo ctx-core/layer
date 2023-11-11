@@ -1,5 +1,5 @@
 import type { val__be_computed_pair_T } from '@ctx-core/nanostores'
-import type { Layer } from '../layer_a'
+import type { Layer } from '../layer/index.js'
 export declare const [
 	top_layer$_,
 	top_layer_,
