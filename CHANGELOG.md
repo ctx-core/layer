@@ -1,5 +1,17 @@
 # @ctx-core/layer
 
+## 17.1.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/array@27.0.2
+  - @ctx-core/error@12.4.2
+  - @ctx-core/function@21.21.2
+  - @ctx-core/nanostores@7.1.3
+  - @ctx-core/object@30.1.2
+
 ## 17.1.1
 
 ### Patch Changes
