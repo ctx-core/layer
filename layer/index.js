@@ -1,16 +1,17 @@
 import { difference_a_, union_a_ } from '@ctx-core/array'
 import { invalid_state__throw } from '@ctx-core/error'
-import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
+import { be_atom_triple_ } from '@ctx-core/nanostores'
 import { top_layer_zIndex_ } from '../top_layer_zIndex/index.js'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('./index.d.ts').Layer}Layer */
-/** @typedef {import('./index.d.ts').layer_T}layer_T */
+/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {import('./index.d.ts').Layer} */
+/** @typedef {import('./index.d.ts').layer_T} */
 export const [
 	layer_a$_,
 	layer_a_,
 	layer_a__set,
-] = be_atom_triple_('layer_a', ctx=>
-	atom_([]))
+] = /** @type {be_atom_triple_T<Layer[]>} */be_atom_triple_(()=>
+	[])
+	.config({ id: 'layer_a' })
 export { layer_a$_ as layer_a__ }
 /**
  * @param {Ctx}ctx
