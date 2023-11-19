@@ -6,6 +6,6 @@ export const [
 	top_layer$_,
 	top_layer_,
 ] = be_computed_pair_(ctx=>
-	last_(layer_a_(ctxo)))
+	last_(layer_a_(ctx)))
 	.config({ id: 'top_layer' })
 export { top_layer$_ as top_layer__ }
