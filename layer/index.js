@@ -10,8 +10,8 @@ export const [
 	layer_a_,
 	layer_a__set,
 ] = /** @type {be_atom_triple_T<Layer[]>} */be_atom_triple_(()=>
-	[])
-	.config({ id: 'layer_a' })
+	[],
+{ id: 'layer_a' })
 export { layer_a$_ as layer_a__ }
 /**
  * @param {Ctx}ctx
