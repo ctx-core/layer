@@ -1,5 +1,18 @@
 # @ctx-core/layer
 
+## 17.1.24
+
+### Patch Changes
+
+- @ctx-core/function: ^21.22.15 -> ^21.22.16
+- @ctx-core/object: ^31.1.1 -> ^31.1.2
+- @ctx-core/error: ^12.4.19 -> ^12.4.20
+- @ctx-core/array: ^27.0.20 -> ^27.0.21
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@9.0.6
+
 ## 17.1.23
 
 ### Patch Changes
