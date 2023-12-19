@@ -1,10 +1,9 @@
-import { difference_a_, union_a_ } from '@ctx-core/array'
-import { invalid_state__throw } from '@ctx-core/error'
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { be_atom_triple_ } from '@ctx-core/nanostores'
+import { difference_a_, union_a_ } from 'ctx-core/array'
+import { invalid_state__throw } from 'ctx-core/error'
 import { top_layer_zIndex_ } from '../top_layer_zIndex/index.js'
-/** @typedef {import('@ctx-core/object').Ctx} */
-/** @typedef {import('./index.d.ts').Layer} */
-/** @typedef {import('./index.d.ts').layer_T} */
 export const [
 	layer_a$_,
 	layer_a_,

@@ -1,5 +1,13 @@
 # @ctx-core/layer
 
+## 17.1.61
+
+### Patch Changes
+
+- consolidate dependencies
+- Updated dependencies
+  - ctx-core@5.1.0
+
 ## 17.1.60
 
 ### Patch Changes

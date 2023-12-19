@@ -1,7 +1,6 @@
-import { last_ } from '@ctx-core/array'
 import { be_computed_pair_ } from '@ctx-core/nanostores'
+import { last_ } from 'ctx-core/array'
 import { layer_a$_ } from '../layer/index.js'
-/** @type {typeof import('./index.d.ts').top_layer__} */
 export const [
 	top_layer$_,
 	top_layer_,
