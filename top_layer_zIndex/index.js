@@ -1,5 +1,5 @@
 import { be_computed_pair_ } from '@ctx-core/nanostores'
-import { nullish__none_ } from 'ctx-core/function'
+import { nullish__none_ } from 'ctx-core/nullish'
 import { top_layer$_ } from '../top_layer/index.js'
 export const [
 	top_layer_zIndex$_,
