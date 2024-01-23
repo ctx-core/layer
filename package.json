@@ -42,7 +42,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/nanostores": "^10.0.57",
-		"ctx-core": "^5.27.0"
+		"ctx-core": "^5.27.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
