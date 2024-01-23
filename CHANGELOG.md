@@ -1,5 +1,13 @@
 # @ctx-core/layer
 
+## 17.1.113
+
+### Patch Changes
+
+- ctx-core: ^5.25.5 -> ^5.26.0
+- Updated dependencies
+  - @ctx-core/nanostores@10.0.56
+
 ## 17.1.112
 
 ### Patch Changes
