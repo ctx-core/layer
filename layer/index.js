@@ -13,7 +13,7 @@ export const [
 { id: 'layer_a' })
 export { layer_a$_ as layer_a__ }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {Layer[]}in_layer_a
  */
 export function layer_a__push(ctx, ...in_layer_a) {
@@ -37,7 +37,7 @@ export function layer_a__push(ctx, ...in_layer_a) {
 	layer_a__set(ctx, layers)
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {Layer[]}in_layer_a
  */
 export function layer_a__unshift(ctx, ...in_layer_a) {
@@ -47,7 +47,7 @@ export function layer_a__unshift(ctx, ...in_layer_a) {
 	]))
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {Layer[]}in_layer_a
  */
 export function layer_a__remove(ctx, ...in_layer_a) {
