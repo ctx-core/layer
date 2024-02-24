@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "17.1.149",
+	"version": "17.1.150",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -41,8 +41,8 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^10.0.92",
-		"ctx-core": "^6.4.4"
+		"@ctx-core/nanostores": "^10.0.93",
+		"ctx-core": "^6.4.5"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
