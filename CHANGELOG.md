@@ -1,5 +1,14 @@
 # @ctx-core/layer
 
+## 17.1.164
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+  - @ctx-core/nanostores@10.0.107
+
 ## 17.1.163
 
 ### Patch Changes
