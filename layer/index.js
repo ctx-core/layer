@@ -1,16 +1,17 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { be_atom_triple_ } from '@ctx-core/nanostores'
 import { difference_a_, union_a_ } from 'ctx-core/array'
 import { invalid_state__throw } from 'ctx-core/error'
+import { id_be_sig_triple_ } from 'ctx-core/rmemo'
 import { top_layer_zIndex_ } from '../top_layer_zIndex/index.js'
 export const [
 	layer_a$_,
 	layer_a_,
 	layer_a__set,
-] = /** @type {be_atom_triple_T<Layer[]>} */be_atom_triple_(()=>
-	[],
-{ id: 'layer_a' })
+] = /** @type {be_sig_triple_T<Layer[]>} */
+id_be_sig_triple_(
+	'layer_a',
+	()=>[])
 export { layer_a$_ as layer_a__ }
 /**
  * @param {ctx_T}ctx

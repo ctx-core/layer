@@ -1,10 +1,9 @@
-import type { be_atom_triple_T } from '@ctx-core/nanostores'
-import type { ctx_T } from 'ctx-core/be'
+import type { be_sig_triple_T, ctx_T } from 'ctx-core/rmemo'
 export declare const [
 	layer_a$_,
 	layer_a_,
 	layer_a__set,
-]:be_atom_triple_T<Layer[]>
+]:be_sig_triple_T<Layer[]>
 export { layer_a$_ as layer_a__ }
 export declare function layer_a__push(ctx:ctx_T, ...in_layer_a:Layer[]):void
 export declare function layer_a__unshift(ctx:ctx_T, ...in_layer_a:Layer[]):void

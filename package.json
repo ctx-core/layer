@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/layer",
-	"version": "17.1.175",
+	"version": "18.0.0",
 	"description": "ctx-core layer",
 	"keywords": [
 		"ctx-core",
@@ -25,9 +25,9 @@
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"./layer",
-		"./top_layer",
-		"./top_layer_zIndex"
+		"layer",
+		"top_layer",
+		"top_layer_zIndex"
 	],
 	"types": "./index.d.ts",
 	"exports": {
@@ -45,8 +45,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/nanostores": "^10.0.118",
-		"ctx-core": "^7.0.2"
+		"ctx-core": "^7.1.0"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",

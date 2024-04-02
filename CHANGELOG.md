@@ -1,5 +1,16 @@
 # @ctx-core/layer
 
+## 18.0.0
+
+### Major Changes
+
+- use ctx-core/rmemo: - @ctx-core/nanostores
+
+### Patch Changes
+
+- Updated dependencies
+  - ctx-core@7.1.0
+
 ## 17.1.175
 
 ### Patch Changes
