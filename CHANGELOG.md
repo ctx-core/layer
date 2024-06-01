@@ -1,5 +1,11 @@
 # @ctx-core/layer
 
+## 18.0.19
+
+### Patch Changes
+
+- ctx-core: ^7.2.12 -> ^7.2.13
+
 ## 18.0.18
 
 ### Patch Changes
